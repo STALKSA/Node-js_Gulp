@@ -1,0 +1,1 @@
+{"version":3,"names":[],"mappings":"","sources":["script.js"],"sourcesContent":["// тут комментарий\r\nfunction\r\n  sayHello(event) \r\n    {\r\n      const \r\n        hello = `Hello, `,\r\n        user = `User!! `,\r\n        from = 'From ';\r\n    alert(\r\n      hello + user + from + event.target.tagName\r\n    )\r\n  }\r\n"],"file":"script.js"}

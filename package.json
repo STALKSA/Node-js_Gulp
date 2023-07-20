@@ -1,0 +1,20 @@
+{
+  "name": "mygulp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "esm": "^3.2.25",
+    "gulp": "^4.0.2",
+    "gulp-clean": "^0.4.0",
+    "gulp-nop": "^0.0.3",
+    "gulp-pug": "^5.0.0",
+    "gulp-stylus": "^3.0.1",
+    "gulp-terser": "^2.1.0"
+  }
+}
