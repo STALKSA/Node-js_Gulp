@@ -1,4 +1,4 @@
-# [Gulp]([http://sabaka.net](https://gulpjs.com/))
+# [Gulp](https://gulpjs.com/)
 
 - [X] Используя Gulp создать систему сборки, которые берет файлы на Stylus (https://stylus-lang.com/), Pug (https://pugjs.org/) и JS, и создает классические HTML+CSS+JS
 - [X] Сборка должна происходить в двух режимах:
