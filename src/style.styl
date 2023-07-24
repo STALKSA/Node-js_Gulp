@@ -1,6 +1,20 @@
 body
     font-size xx-large
 
+nav ul
+    list-style none
+    display flex
+    padding 0
+    justify-content space-evenly
+    padding-top 2em
+
+  span, a
+   padding 0.5em 
+
+.active 
+    background-color yellow
+
+
 for n in 0..6
     li:nth-child({n+1})  
         color: hsl(n*360deg/7,100%,50%)
