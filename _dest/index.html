@@ -1,19 +1,38 @@
 <!DOCTYPE html >
 <html> 
   <head>
-    <link rel="stylesheet" href="style.css"/>
+    <title>Home</title>
+    <link rel="stylesheet" href="/style.css"/>
   </head>
   <body>
-    <ul>
-      <li>Red</li>
-      <li>Orange</li>
-      <li>Yellow</li>
-      <li>Green </li>
-      <li>Blue</li>
-      <li>Indigo</li>
-      <li>Violet</li>
-    </ul>
-    <button onclick="sayHello(event)">Привет!!!</button>
-    <script src="script.js"></script>
+    <nav>
+      <ul> 
+        <li><span class="active">Home</span>
+        </li>
+        <li><a href="/about.html">About</a>
+        </li>
+        <li><a href="/info/">Info</a>
+        </li>
+        <li><a href="/contacts.html">Contacts</a>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <ul>
+        <li style="color: hsl(0deg, 100%, 50%)">Red</li>
+        <li style="color: hsl(50deg, 100%, 50%)">Orange</li>
+        <li style="color: hsl(100deg, 100%, 50%)">Yellow</li>
+        <li style="color: hsl(150deg, 100%, 50%)">Green</li>
+        <li style="color: hsl(200deg, 100%, 50%)">Blue</li>
+        <li style="color: hsl(250deg, 100%, 50%)">Indigo</li>
+        <li style="color: hsl(300deg, 100%, 50%)">Violet</li>
+      </ul>
+      <button onclick="sayHello(event)">Привет!!!</button>
+      <script src="script.js"></script>
+    </main>
+    <footer>
+      <hr/>
+      <p>(c) 2023 My Company</p>
+    </footer>
   </body>
 </html>

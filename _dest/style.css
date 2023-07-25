@@ -1,25 +1,38 @@
 body {
-  font-size: xx-large;
+  font-size: x-large;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 0;
+}
+span,
+a {
+  padding: 0.5em;
+}
+.active {
+  background-color: Blue;
 }
 li:nth-child(1) {
   color: #f00;
 }
 li:nth-child(2) {
-  color: #ffdb00;
+  color: #ffd500;
 }
 li:nth-child(3) {
-  color: #49ff00;
+  color: #5f0;
 }
 li:nth-child(4) {
-  color: #00ff92;
+  color: #00ff80;
 }
 li:nth-child(5) {
-  color: #0092ff;
+  color: #0af;
 }
 li:nth-child(6) {
-  color: #4900ff;
+  color: #2a00ff;
 }
 li:nth-child(7) {
-  color: #ff00db;
+  color: #f0f;
 }
 /*# sourceMappingURL=style.css.map */

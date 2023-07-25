@@ -1,10 +1,25 @@
+//- extend _includes/layout.pug
+//- block init
+//-   - const pageID = 0
+//- block content 
+//-   - let colors = [`Red`,'Orange','Yellow','Green ','Blue','Indigo','Violet'];
+//-   ul
+//-     each color in colors
+//-       li= color 
+//-   button(onclick="sayHello(event)") Привет!!!
+//-   script(src="script.js") 
+
 extend _includes/layout.pug
+
 block init
   - const pageID = 0
+
 block content 
-  - let colors = [`Red`,'Orange','Yellow','Green ','Blue','Indigo','Violet'];
+  - let colors = ['Red', 'Orange', 'Yellow', 'Green', 'Blue', 'Indigo', 'Violet'];
+
   ul
-    each color in colors
-      li= color 
+    each color, index in colors
+      li(style=`color: hsl(${index * 300 / 6}deg, 100%, 50%)`) #{color}
+
   button(onclick="sayHello(event)") Привет!!!
-  script(src="script.js") 
+  script(src="script.js")
